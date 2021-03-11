@@ -1,0 +1,38 @@
+.video {
+    position: relative;
+    max-height: 70rem;
+    overflow: hidden;
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0ec189+0,9e37f2+67,ffffff+100&0.8+0,0.6+100 */
+        background: -moz-linear-gradient(-45deg,  rgba(14,193,137,0.8) 0%, rgba(158,55,242,0.67) 67%, rgba(255,255,255,0.6) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg,  rgba(14,193,137,0.8) 0%,rgba(158,55,242,0.67) 67%,rgba(255,255,255,0.6) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg,  rgba(14,193,137,0.8) 0%,rgba(158,55,242,0.67) 67%,rgba(255,255,255,0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0ec189', endColorstr='#99ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */;
+    }
+    video{
+        display: block;
+        width: 100%;
+    }
+}
+.contenido-video{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    h2{
+        display: flex;
+        font-size: 7rem;
+        color:$blanco;
+        flex-direction: column;
+        align-items: flex-start;
+        span {
+            background-color: $rosa;
+            font-size: 2rem;
+            padding: 1rem;
+        }
+    }
+}
